@@ -8,6 +8,7 @@
 	$waga=$_POST["waga"];
 	$wzrost=$_POST["wzrost"];
 	$BMI=$waga/($wzrost*$wzrost);
+	print("$BMI"."<br>");
 	if($BMI<16.0)
 	{
 		print("Wygłodzenie");
