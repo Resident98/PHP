@@ -8,7 +8,7 @@
 	$waga=$_POST["waga"];
 	$wzrost=$_POST["wzrost"];
 	$BMI=$waga/($wzrost*$wzrost);
-	print("$BMI"."<br>");
+	print("Wskaźnik BMI: "."$BMI"."<br>");
 	if($BMI<16.0)
 	{
 		print("Wygłodzenie");
@@ -35,5 +35,7 @@
 		print("III stopień otyłości (otyłość skrajna)");
 	}
 ?>
+<br>
+<a href="index.php">Powrót na stronę główną</a>
  </body>
 </html>
